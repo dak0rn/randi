@@ -1,0 +1,29 @@
+{
+  "name": "randi",
+  "main": "randi.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dak0rn/randi",
+  "authors": [
+    "dak0rn <daniel@suitsoft.eu>"
+  ],
+  "description": "A simple unique ID generator",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "unique",
+    "id",
+    "utility",
+    "generator"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
