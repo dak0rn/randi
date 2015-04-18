@@ -1,0 +1,31 @@
+{
+  "name": "randi",
+  "version": "1.0.0",
+  "description": "A simple unique ID generator",
+  "main": "randi.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dak0rn/randi.git"
+  },
+  "keywords": [
+    "id",
+    "generator",
+    "unique",
+    "utility"
+  ],
+  "author": "dak0rn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dak0rn/randi/issues"
+  },
+  "homepage": "https://github.com/dak0rn/randi",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "grunt": "^0.4.5",
+    "mocha": "^2.2.4",
+    "when": "^3.7.2"
+  }
+}
