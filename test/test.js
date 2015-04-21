@@ -23,5 +23,20 @@ describe('Currying', function() {
             function() {
         expect( randi() ).to.equal( randi );
     });
+
+    it('should not curry if invoked with both arguments', function() {
+        expect( randi(1,{}) ).not.to.be.a('function');
+    });
 });
 
+describe('Return value', function() {
+
+    it('should return a string', function() {
+        expect( randi(1) ).to.be.a('string');
+    });
+
+    it('should have the given length', function() {
+        for( var i = 0; i < 10; i++ )
+            expect( randi(i).length ).to.equal(i);
+    });
+});
