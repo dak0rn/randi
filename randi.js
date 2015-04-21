@@ -13,7 +13,7 @@
         module.exports = factory();
     }
     else {
-        root.metacarattere = factory();
+        root.randi = factory();
     }
 } (this, function () {
 
