@@ -17,7 +17,10 @@
     }
 } (this, function () {
 
-    return function(length, options) {
+    var randi = function(length, options) {
+
+        if( 0 === arguments.length )
+            return randi;
 
         if( 'undefined' === options &&
             null !== length &&
@@ -45,5 +48,7 @@
         else
             return gen;
     };
+
+    return randi;
 
 }));
