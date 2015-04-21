@@ -4,7 +4,7 @@
   "description": "A simple unique ID generator",
   "main": "randi.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
