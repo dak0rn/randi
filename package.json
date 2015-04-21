@@ -24,7 +24,6 @@
   "homepage": "https://github.com/dak0rn/randi",
   "devDependencies": {
     "chai": "^2.2.0",
-    "grunt": "^0.4.5",
     "mocha": "^2.2.4",
     "when": "^3.7.2"
   }
